@@ -1,12 +1,28 @@
+body {
+ background-image: url("sunnyday.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #cccccc;
+}
+
 label {
     color:red;
 }
 
 .labels, .images, td{
     text-align: center;
-    font-size: 20px;
-    color:green;
+    font-size: 30px;
+    color:brown;
 }
-#l1{
-    color:blue;
+.links {
+    color: brown;
+    background: yellow;
+}
+#l0 {
+    text-align: left;
+    color: red;
+    font-size: 50px;
+    }
+#l1, #l2, #l3{
+    color:black;
 }

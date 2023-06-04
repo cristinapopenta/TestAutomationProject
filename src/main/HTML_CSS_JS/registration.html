@@ -8,18 +8,21 @@
 </head>
 <body>
 <form>
+    <td>
+        <label class="labels" id="l0">Registration page sketch</label>
+    </td>
     <table>
         <tr>
-            <td>
+           <td>
                 <label for="username" class="labels" id="l1">Username</label>
             </td>
             <td>
-                <input type="text" id="username" onchange="readInputText()";/>
+                <input type="text" id="username" onchange="readInputText()" ;/>
             </td>
         </tr>
         <tr>
             <td>
-                <label for="pass" class="labels">Password</label>
+                <label for="pass" class="labels" id="l2">Password</label>
             </td>
             <td>
                 <input type="password" id="pass" />
@@ -27,7 +30,7 @@
         </tr>
         <tr>
             <td>
-                <label for="passrepeat" class="labels">Repeat password</label>
+                <label for="passrepeat" class="labels" id="l3">Repeat password</label>
             </td>
             <td>
                 <input type="password" id="passrepeat"/>
@@ -50,15 +53,15 @@
             </td>
         </tr>
     </table>
-    <input type="submit" id="submitbutton"/>
+    <input type="submit" id="submitbutton" onclick="validateUserPass()";/>
     <input type="reset" id="resetbutton"/>
     <button type="button" value="button1" id="b1" onclick="clickMe();">My Button</button>
-</form>
-<img src="Capture.png" id="img1" class="images"/> </br>
+</form></br>
+<img src="Capture.png" id="img1" class="images"/> </br> </br>
 <img src="https://media.magazinulcolectionarului.ro/media/amasty/webp/catalog/category/limuzine_jpg.webp"
      id="img2" class="images"/> </br>
-<a href="https://ro.wikipedia.org" id="link1">Click here for wikipedia</a> </br>
-<a href="https://github.com/alexgatu/Automation_12" target="_blank" id="link2">Click here for git</a>
+<a href="https://ro.wikipedia.org" id="link1" class="links">Click here for wikipedia</a> </br>
+<a href="https://github.com/alexgatu/Automation_12" target="_blank" id="link2" class="links">Click here for git</a>
 <div id="result">
 
 </div>
