@@ -1,0 +1,60 @@
+/* Add a black background color to the top navigation */
+.navigation {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #4A235A;
+;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.navigation a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the navigator on small screens */
+.navigator .icon {
+  display: none;
+}
+
+body {
+    background-color: #cccccc;
+}
+
+.main {
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
+}
+
+.labels, .links{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.links{
+    font-style: italic;
+}
+.subtitle {
+    color: #641E16;
+    margin-top: 50px;
+}
+
+
