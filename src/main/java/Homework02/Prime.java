@@ -11,7 +11,7 @@ public class Prime {
         System.out.println(number +" "+ isPrim);
         //il afisez pe 2 care e singurul numar prim si par, cele de la 3 in sus le tratez separat
         number=3;
-        while (number<1000) {
+        while (number<1000000) {
 
             isPrim = true; //presupun ca numarul este prim; daca gasesc un divizor, schimb valoarea lui boolean
             float rad = (float) Math.sqrt((float) number); //scot radicalul din nr meu
