@@ -1,6 +1,6 @@
 package Homework02;
 
-public class Sum {
+public class SumOfNumbers {
     public static void main(String[] args){
 
         System.out.println("-----------------------------------");

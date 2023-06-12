@@ -1,6 +1,6 @@
 package Homework02;
 
-public class Prime {
+public class PrimeNumbers {
     public static void main(String[] args){
         //aici am cautat numerele prime si afisat doar in main
 
