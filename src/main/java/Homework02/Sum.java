@@ -21,7 +21,7 @@ public class Sum {
 
         System.out.println("-----------------------------------");
         int sumDo=0; //suma initala este 0
-        int k=0;
+        int k=1;
         do {
             sumDo+=k;
             k++;
