@@ -5,14 +5,14 @@ public class Sum {
 
         System.out.println("-----------------------------------");
         int sumFor=0; //suma initala este 0
-        for (int i=0;i<=100;i++){
+        for (int i=1;i<=100;i++){
             sumFor+=i;
         }
         System.out.println("Suma calculata cu for este: " + sumFor);
 
         System.out.println("-----------------------------------");
         int sumWhile=0; //suma initala este 0
-        int j=0;
+        int j=1;
         while (j<=100){
             sumWhile+=j;
             j++;
