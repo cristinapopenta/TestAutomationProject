@@ -25,7 +25,7 @@ public class PrimeNumbers {
 
             for (int i = 2; i <=limit; i++) {
                 if (number % i == 0) {
-                    isPrim = false;
+                    isPrim = false; break;
                 }
             }
             if (isPrim) {

@@ -15,7 +15,7 @@ public class PrimeNo {
 
         for (int i = 2; i <=limit; i++) {
             if (x % i == 0) {
-                return false;
+                return false;//cu return iese deja din functie, nu mai e nevoie de break
             }
         }
         return true;
@@ -26,7 +26,7 @@ public class PrimeNo {
         while (i<=1000000){
             if (isPrimeNo(i)) {
                 System.out.println(i + " is prime number");
-            };
+            }
             i++;
         }
 
