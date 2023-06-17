@@ -1,4 +1,4 @@
-package Homework02;
+package Homework.Homework02;
 import java.util.Scanner;
 
 public class LeapYear {

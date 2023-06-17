@@ -1,4 +1,4 @@
-package Homework02;
+package Homework.Homework02;
 
 public class Aritmetic {
     public static void main(String[] args){

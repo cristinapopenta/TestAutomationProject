@@ -1,4 +1,4 @@
-package Homework02;
+package Homework.Homework02;
 
 public class PrimeNo {
     //voi folosi o functie booleana care sa-mi intoarca true sau false,

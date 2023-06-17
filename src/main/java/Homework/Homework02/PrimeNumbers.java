@@ -1,4 +1,4 @@
-package Homework02;
+package Homework.Homework02;
 
 public class PrimeNumbers {
     public static void main(String[] args){
@@ -11,6 +11,7 @@ public class PrimeNumbers {
         System.out.println(number +" "+ isPrim);
         //il afisez pe 2 care e singurul numar prim si par, cele de la 3 in sus le tratez separat
         number=3;
+       
         while (number<1000000) {
 
             isPrim = true; //presupun ca numarul este prim; daca gasesc un divizor, schimb valoarea lui boolean
@@ -34,6 +35,7 @@ public class PrimeNumbers {
 
             number++;
         } //end while
+
 
     }
 }
