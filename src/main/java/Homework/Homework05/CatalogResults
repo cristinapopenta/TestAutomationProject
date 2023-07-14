@@ -1,0 +1,57 @@
+-------------------------------
+1. Adding students, name and grade
+Added Andrei Popescu grade 10.0
+Added Dana Georgescu grade 9.0
+Added Mihai Dumitrescu grade 8.0
+Added Anca Ionescugrade 9.75
+-------------------------------
+2. List of students:
+Student with name ='Andrei Popescu' has grade = 10.0
+Student with name ='Dana Georgescu' has grade = 9.0
+Student with name ='Mihai Dumitrescu' has grade = 8.0
+Student with name ='Anca Ionescu' has grade = 9.75
+-------------------------------
+3. Search student by name:
+Is Vasile Ionescu in the catalog? no
+Is Andrei Popescu in the catalog? yes
+-------------------------------
+4. Deleting student with name Daniela Georgescu
+no
+Student Daniela Georgescu is not in catalog
+List of students after removal:
+Student with name ='Andrei Popescu' has grade = 10.0
+Student with name ='Dana Georgescu' has grade = 9.0
+Student with name ='Mihai Dumitrescu' has grade = 8.0
+Student with name ='Anca Ionescu' has grade = 9.75
+                 -------------------
+4. Deleting student with name Dana Georgescu
+yes
+List of students after removal:
+Student with name ='Andrei Popescu' has grade = 10.0
+Student with name ='Mihai Dumitrescu' has grade = 8.0
+Student with name ='Anca Ionescu' has grade = 9.75
+-------------------------------
+Adding two more students:
+Added Marius Danielescu grade 5.75
+Added Gica Petrescu grade 7.3
+Student with name ='Andrei Popescu' has grade = 10.0
+Student with name ='Mihai Dumitrescu' has grade = 8.0
+Student with name ='Anca Ionescu' has grade = 9.75
+Student with name ='Marius Danielescu' has grade = 5.75
+Student with name ='Gica Petrescu' has grade = 7.3
+-------------------------------
+5. Sort by name:
+Student with name ='Anca Ionescu' has grade = 9.75
+Student with name ='Andrei Popescu' has grade = 10.0
+Student with name ='Gica Petrescu' has grade = 7.3
+Student with name ='Marius Danielescu' has grade = 5.75
+Student with name ='Mihai Dumitrescu' has grade = 8.0
+-------------------------------
+6. Sort by grade:
+Student with name ='Andrei Popescu' has grade = 10.0
+Student with name ='Anca Ionescu' has grade = 9.75
+Student with name ='Mihai Dumitrescu' has grade = 8.0
+Student with name ='Gica Petrescu' has grade = 7.3
+Student with name ='Marius Danielescu' has grade = 5.75
+
+Process finished with exit code 0

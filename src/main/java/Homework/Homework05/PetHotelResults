@@ -1,0 +1,39 @@
+------------------------------------
+Adding dogs to the pet hotel:
+------------------------------------
+The male dog with name 'Tecky' and with breed 'Terrier' that is 1 year(s) old  was added to room no. 101
+The male dog with name 'Toto' and with breed 'Dalmatian' that is 3 year(s) old  was added to room no. 102
+The male dog with name 'Lord' and with breed 'Golden Retriever' that is 7 year(s) old  was added to room no. 103
+------------------------------------
+Initial list of dogs:
+Room 101: The male dog with name 'Tecky' and with breed 'Terrier' that is 1 year(s) old
+Room 102: The male dog with name 'Toto' and with breed 'Dalmatian' that is 3 year(s) old
+Room 103: The male dog with name 'Lord' and with breed 'Golden Retriever' that is 7 year(s) old
+------------------------------------
+Trying to add a dog to an occupied room:
+Room no. 103 is already occupied by The male dog with name 'Lord' and with breed 'Golden Retriever' that is 7 year(s) old
+------------------------------------
+Remove a dog from a given room:
+The male dog with name 'Toto' and with breed 'Dalmatian' that is 3 year(s) old  left the room no. 102
+------------------------------------
+Current ist of dogs:
+Room 101: The male dog with name 'Tecky' and with breed 'Terrier' that is 1 year(s) old
+Room 103: The male dog with name 'Lord' and with breed 'Golden Retriever' that is 7 year(s) old
+------------------------------------
+Remove a dog from an unoccupied or inexisting room:
+Room no. 107 was not ocuppied by a dog or room does not exist
+------------------------------------
+List of dogs:
+Room 101: The male dog with name 'Tecky' and with breed 'Terrier' that is 1 year(s) old
+Room 103: The male dog with name 'Lord' and with breed 'Golden Retriever' that is 7 year(s) old
+------------------------------------
+Add a new dog:
+The female dog with name 'Laica' and with breed 'Dalmatian' that is 5 year(s) old  was added to room no. 104
+------------------------------------
+Trying to add the same dog to a different room:
+The female dog with name 'Laica' and with breed 'Dalmatian' that is 5 year(s) old  is already into another room no.
+------------------------------------
+Current list of dogs:
+Room 101: The male dog with name 'Tecky' and with breed 'Terrier' that is 1 year(s) old
+Room 103: The male dog with name 'Lord' and with breed 'Golden Retriever' that is 7 year(s) old
+Room 104: The female dog with name 'Laica' and with breed 'Dalmatian' that is 5 year(s) old
